@@ -45,8 +45,8 @@ body {
 
 #info {
     position: absolute;
-    top: 92%;
-	font-family: 'Source Code Pro';
+    top: 90%;
+    font-family: 'Source Code Pro';
     color:white;
     font-size: 13px;
 }
