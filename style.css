@@ -1,0 +1,99 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro';
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/v17/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrQ.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    src: url(fonts/v17/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrQ.ttf) format('truetype');
+}
+  
+* {
+    -webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #222;
+}
+
+#txt1 {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 29px;
+    left: 50%;
+    color: #ffffff;
+}
+
+#gif {
+    position: absolute;
+    float:left;
+    left: 770px;
+    top: 20px;
+}
+
+#title {
+    display: inline-block
+}
+
+#info {
+    position: absolute;
+    top: 96%;
+	font-family: 'Source Code Pro';
+    color:white;
+    font-size: 13px;
+}
+
+#author {
+    position: absolute;
+    top: 96%;
+	font-family: 'Source Code Pro';
+    color:white;
+    font-size: 13px;
+    right: 10px;
+}
+
+.textbox {
+    resize: none;
+}
+
+textarea {
+    background-color: #181a1b;
+    resize: none;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    width: 540px;
+    height: 260px;
+    color: rgb(197, 194, 194);
+    transform: translate(-50%, -50%);
+}
+
+
+#availdoms {
+    color: rgb(212, 212, 212);
+    font-size: 18px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 49%;
+    top: 9%;
+}
+
+#domainlist {
+	font-family: 'Raleway', sans-serif;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    color: rgb(197, 194, 194);
+    font-size: 12px;
+    left: 50%;
+    top: 25%;
+    position:absolute;
+}
