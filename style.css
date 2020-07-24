@@ -26,18 +26,17 @@ body {
 }
 
 #txt1 {
-    transform: translate(-50%, -50%);
-    position: absolute;
+    float: right;
+    margin-left: 850px;
     font-size: 29px;
-    left: 50%;
     color: #ffffff;
 }
 
 #gif {
     position: absolute;
     float:left;
-    left: 770px;
-    top: 20px;
+    display: table;
+    margin-left: 770px;
 }
 
 #title {
@@ -46,7 +45,7 @@ body {
 
 #info {
     position: absolute;
-    top: 96%;
+    top: 94%;
 	font-family: 'Source Code Pro';
     color:white;
     font-size: 13px;
