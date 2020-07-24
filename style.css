@@ -26,17 +26,18 @@ body {
 }
 
 #txt1 {
-    float: right;
-    margin-left: 850px;
+    transform: translate(-50%, -50%);
+    position: absolute;
     font-size: 29px;
+    left: 50%;
     color: #ffffff;
 }
 
 #gif {
     position: absolute;
     float:left;
-    display: table;
-    margin-left: 770px;
+    left: 820px;
+    top: 20px;
 }
 
 #title {
@@ -45,8 +46,8 @@ body {
 
 #info {
     position: absolute;
-    top: 92%;
-    font-family: 'Source Code Pro';
+    top: 96%;
+	font-family: 'Source Code Pro';
     color:white;
     font-size: 13px;
 }
@@ -93,6 +94,6 @@ textarea {
     color: rgb(197, 194, 194);
     font-size: 12px;
     left: 50%;
-    top: 25%;
+    top: 50%;
     position:absolute;
 }
